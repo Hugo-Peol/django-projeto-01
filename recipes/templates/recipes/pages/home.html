@@ -1,16 +1,22 @@
 {% include 'recipes/partials/head.html' %}
 
 <body>
-    <header class="main-header-container">
-        <div class="main-header container">
-            <h1>
-                <a class="main-logo" href="/">
-                    <i class="fas fa-utensils main-logo-icon"></i>
-                    <span class="main-logo-text">Recipes</span>
-                </a>
-            </h1>
+    {% include 'recipes/partials/header.html' %}
+    {% include 'recipes/partials/search.html' %}
+
+    <main class="main-content-container">
+        <div class="main-content main-content-list container">
+            <div class="recipe recipe-llist-item">
+                <dif class="recipe-cover">
+                    <img src="https://via.placeholder.com/1280x720.png/269fe6" alt="Temporário">
+                </dif>
+                <h1>oi</h1>
+            </div>
         </div>
-    </header>
+    </main>
+
+
 </body>
+
 
 </html>
